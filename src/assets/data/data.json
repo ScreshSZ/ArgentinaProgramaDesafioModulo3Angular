@@ -1,0 +1,187 @@
+{
+    "redes":[{
+        "instagram": "https://www.instagram.com/santizeniquelok/",
+        "linkedin": "https://www.linkedin.com/in/santizeniquelok/",
+        "whatsapp": "http://api.whatsapp.com/send?phone=3794150486",
+        "github": "https://github.com/ScreshSZ"
+    }],
+
+    "banner":[{
+        "banner1": "../../../assets/banner1.png",
+        "banner2": "../../../assets/banner2.jpeg"
+    }],
+
+    "perfil":[{
+        "imagenPerfil": "../../../assets/perfil.jpeg",
+        "nombre": "Zeniquel Santiago de Jesus",
+        "descripcionPerfil": "Me llamo Zeniquel Santiago de Jesús tengo 21 años soy estudiante de la carrera Licenciatura en Sistemas de Información en la UNNE(Universidad Nacional del Nordeste) en la ciudad de Corrientes y me gusta estudiar todo lo relacionado con la programación de manera autodidacta."
+    }],
+
+    "experiencia":[
+        {
+        "imagen": "../../../assets/hospitalLlano.png",
+        "empresa": "Hospital 'Angela Iglesia de Llano'",
+        "periodo": "4 meses del 2018",
+        "puesto": "Pasantias / Area de Facturación",
+        "descripcionExperiencia": "Mi puesto era en el área de facturación y las tareas principales de las que me encargaba es la de comprobación y verificación de obras sociales de los pacientes por medio de la pagina Web SISA (Sistema Integrado de información Sanitaria Argentino) para posteriormente ser enviadas a su correspondiente departamento."
+        }
+    ],
+
+    "educacion":[
+        {
+            "imagen": "../../../assets/folcademylogo.jpg",
+            "organizacion": "Folcademy",
+            "estudianteDe": "Desarrollador Front End Angular",
+            "periodo": "Septiembre a Noviembre 2022",
+            "titulo":"Titulo: Desarrollador Front End Angular"
+        },
+        {
+            "imagen": "../../../assets/folcademylogo.jpg",
+            "organizacion": "Folcademy",
+            "estudianteDe": "Desarrollador Front End React",
+            "periodo": "Julio a Septiembre 2022",
+            "titulo":"Titulo: Desarrollador Front End React"
+        },
+        {
+            "imagen": "../../../assets/imgArgPrograma.png",
+            "organizacion": "Argentina Programa 2da Etapa",
+            "estudianteDe": "Desarrollador Web Full Stack Jr.",
+            "periodo": "Julio - En Proceso 2022/23",
+            "titulo":"Titulo: En Proceso"
+        },
+        {
+            "imagen": "../../../assets/folcademylogo.jpg",
+            "organizacion": "Folcademy",
+            "estudianteDe": "UI DEVELOPER",
+            "periodo": "Julio - En Proceso 2022/23",
+            "titulo":"Titulo: UI Developer"
+        },
+        {
+            "imagen": "../../../assets/imgArgPrograma.png",
+            "organizacion": "Argentina Programa 1ra Etapa",
+            "estudianteDe": "Desarrollador Web Full Stack Jr.",
+            "periodo": "Febrero - Abril 2022",
+            "titulo":"Primera Etapa Argentina Programa #SéProgramar"
+        },
+        {
+            "imagen": "../../../assets/unnelogo.jpg",
+            "organizacion": "UNNE - Universidad Nacional del Nordeste",
+            "estudianteDe": "Licenciatura en Sistemas de Información",
+            "periodo": "2020 - Acutalidad",
+            "titulo": "En Proceso"
+        },
+        {
+            "imagen": "../../../assets/cedar.png",
+            "organizacion": "CEDAR - CENTRO EDUCATIVO ARGENTINO (Corrientes)",
+            "estudianteDe": "Reparación de Pc y Notebooks",
+            "periodo": "6 meses 2019",
+            "titulo": "Reparación de Pc y Notebooks"
+        },
+        {
+            "imagen": "../../../assets/escuelaComercio.png",
+            "organizacion": "Colegio Secundario Manuel Belgrano",
+            "estudianteDe": "Estudiante Secundario",
+            "periodo": "2013 - 2018",
+            "titulo": "Bachiller en Administración y Economia" 
+        }
+    ],
+    "habilidades":[
+        {
+            "nombre": "Trabajo en Equipo",
+            "porcentaje": "90",
+            "width": "width: 90%;"
+        },
+        {
+            "nombre": "Ingles",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "HTML",
+            "porcentaje": "100",
+            "width": "width: 100%;"
+        },
+        {
+            "nombre": "CSS",
+            "porcentaje": "98",
+            "width": "width: 98%;"
+        },
+        {
+            "nombre": "Bootstrap",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "Materialize",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "Javascript",
+            "porcentaje": "78",
+            "width": "width: 78%;"
+        },
+        {
+            "nombre": "Git/Github",
+            "porcentaje": "90",
+            "width": "width: 90%;"
+        },
+        {
+            "nombre": "React",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "Next.Js",
+            "porcentaje": "82",
+            "width": "width: 82%;"
+        },
+        {
+            "nombre": "Material UI",
+            "porcentaje": "78",
+            "width": "width: 78%;"
+        },
+        {
+            "nombre": "C/C++",
+            "porcentaje": "60",
+            "width": "width: 60%;"
+        },
+        {
+            "nombre": "Angular",
+            "porcentaje": "90",
+            "width": "width: 90%;"
+        },
+        {
+            "nombre": "MySQL",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "Typescript",
+            "porcentaje": "78",
+            "width": "width: 78%;"
+        }
+
+    ],
+    "proyectos": [
+        {
+            "nombre": "Pagina Web Apple",
+            "fecha": "Julio de 2022",
+            "descripcion": "Esta pagina la hice con React, basicamente trata de 3 Cards que contienen un producto y al darle click en el boton desplega una pequeña descripcion del Producto",
+            "url": "https://desafio4-react.vercel.app/",
+            "imagen": "../../../assets/proyecto1.png"
+        },
+        {
+            "nombre": "Pagina Web Aplicando Materialize",
+            "fecha": "Agosto de 2022",
+            "descripcion": "Esta pagina la hice con Html, Css y un framework llamado Materialize que esta compuesta de diversas secciones aplicando la mayoria de recursos disponibles",
+            "url": "https://desafio6-nine.vercel.app/",
+            "imagen": "../../../assets/proyecto2.png"
+        }
+    ]
+
+
+
+
+
+}

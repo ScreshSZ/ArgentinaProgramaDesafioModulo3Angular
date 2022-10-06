@@ -1,0 +1,26 @@
+/*------Experiencia--------*/
+
+.experiencia{
+    background-color: rgba(50, 50, 50, .2);
+    border-radius: 20px;
+}
+
+.experiencia .titulo{
+    text-align: center;
+    color: #ff6b01;
+    font-size: 50px;
+}
+
+.imagenLlano{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.descripcion-experiencia{
+    text-align: center;
+}
+
+.descripcion-experiencia{
+    font-size: 20px;
+}

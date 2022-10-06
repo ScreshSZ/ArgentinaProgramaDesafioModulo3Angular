@@ -1,0 +1,22 @@
+<div class="habilidades fondo container my-5">
+    <h2 class="titulo subTitulos my-5">HARD AND SOFT SKILLS</h2>
+    <i class="iconos fas fa-plus"></i>
+    <hr class="text-white">
+    <div *ngFor="let skills of informacionHabilidades" class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+            <i class="fas fa-ban iconos text-white"></i>
+            <h3 class="text-white">{{skills.nombre}}</h3>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+            <i class="fas fa-ban iconos text-white"></i>
+            <div class="progress" style="height: 30px; border-radius:20px;">
+                <div class="progress-bar bg-success " role="progressbar"
+                    [style]="skills.width" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">{{skills.porcentaje}}%</div>
+            </div>
+        </div>
+        <hr class="text-white">
+    </div>
+</div>

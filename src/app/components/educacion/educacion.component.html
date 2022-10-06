@@ -1,0 +1,40 @@
+<div class="educacion fondo container">
+    <h2 class="titulo subTitulos">EDUCACIÓN</h2>
+    <i class="iconos fas fa-plus"></i>
+    <hr class="text-white">
+    <div *ngFor="let estudio of informacionEducacion" class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center mb-3">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <img [src]="estudio.imagen" class="imagenesEducacion" [alt]="estudio.organizacion"
+                [title]="estudio.organizacion">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8">
+            <div>
+                <h3 class="text-white d-inline">{{estudio.organizacion}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <h3 class="text-white d-inline">{{estudio.estudianteDe}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <h3 class="text-white d-inline">{{estudio.periodo}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <h3 class="text-white d-inline">{{estudio.titulo}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+
+        </div>
+        <hr class="text-white">
+    </div>
+
+</div>

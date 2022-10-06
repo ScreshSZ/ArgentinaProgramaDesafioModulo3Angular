@@ -2,20 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-banner',
+  templateUrl: './banner.component.html',
+  styleUrls: ['./banner.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class BannerComponent implements OnInit {
 
-  informacionNavbar:any;
+  informacionBanner:any;
 
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos1().subscribe(data =>{
-      console.log(data.redes[0].github);
-      this.informacionNavbar=data;
+      console.log("Servicio desde banner funcionando");
+      this.informacionBanner=data;
     });
   }
 

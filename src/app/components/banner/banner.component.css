@@ -1,0 +1,16 @@
+/*--------BANNER-------*/
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.iconoBanner{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin: 10px;
+    z-index: 50;
+}

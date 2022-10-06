@@ -1,0 +1,40 @@
+<div class="experiencia fondo container">
+    <h2 class="titulo subTitulos">EXPERIENCIA</h2>
+    <i class="iconos fas fa-plus"></i>
+    <hr class="text-white">
+    <div class="contenedorExperiencia row my-5">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center mb-3">
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <img class="imagenLlano" [src]="informacionExperiencia.experiencia[0].imagen" [alt]="informacionExperiencia.experiencia[0].empresa" [title]="informacionExperiencia.experiencia[0].empresa">
+        </div>
+        <div class="descripcion-experiencia col-sm-12 col-md-6 col-lg-8">
+            <div>
+                <h2 class="text-white d-inline">{{informacionExperiencia.experiencia[0].empresa}}</h2>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <h3 class="text-white d-inline">{{informacionExperiencia.experiencia[0].periodo}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <h3 class="text-white d-inline">{{informacionExperiencia.experiencia[0].puesto}}</h3>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+            </div>
+            <div>
+                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
+                <i class="fas fa-ban iconos text-white"></i>
+                <p class="text-white">{{informacionExperiencia.experiencia[0].descripcionExperiencia}}</p>
+
+            </div>
+
+        </div>
+        <hr class="text-white">
+    </div>
+
+</div>

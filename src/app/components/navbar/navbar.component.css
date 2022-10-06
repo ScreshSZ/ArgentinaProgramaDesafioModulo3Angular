@@ -1,0 +1,11 @@
+/*---------NAV--------*/
+.navbar-brand img{
+    height: 70px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.nav-link:hover{
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    border-radius: 20px;
+}
