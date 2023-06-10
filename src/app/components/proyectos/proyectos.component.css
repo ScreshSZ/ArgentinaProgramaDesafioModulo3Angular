@@ -6,8 +6,9 @@
  .contenedorProyectos{
     background-color: rgba(255, 255, 255, .2);
     border-radius: 20px;
-    padding: 30px 0;
+    padding: 10px 0;
     border: 2px solid #1baa38;
+    
  }
 
  .contenedorProyectos a{
@@ -17,6 +18,7 @@
     padding: 10px 16px ;
     border-radius: 20px;
     transition: .5;
+    margin-top: 40px;
  }
 
  .contenedorProyectos a:hover{

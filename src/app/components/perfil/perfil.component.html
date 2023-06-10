@@ -2,15 +2,12 @@
     <div class="row">
         <div class="contenedorPerfil col-sm-12 col-md-6 col-lg-4">
             <img class="imagen-perfil" [src]="informacionPerfil.perfil[0].imagenPerfil" [title]="informacionPerfil.perfil[0].nombre" [alt]="informacionPerfil.perfil[0].nombre">
-            <i class="fas fa-pen iconoSobreMi1 iconos text-white"></i>
-            <i class="fas fa-pen iconoSobreMi2 iconos text-white"></i>
+            
             <h1 class="nombrePerfil titulo">{{informacionPerfil.perfil[0].nombre}}</h1>
         </div>
         <div class="descripcionPerfil col-sm-12 col-md-6 col-lg-8 ">
             <h2 class="miTrabajo titulo subTitulos">SOY FULL STACK DEVELOPER JR.</h2>
             <div>
-                <i class="fas fa-pen iconos iconoSobreMiDescripcion text-white"></i>
-                <i class="fas fa-ban iconos text-white"></i>
             </div>
             <h3 class="text-white">{{informacionPerfil.perfil[0].descripcionPerfil}}
             </h3>

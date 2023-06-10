@@ -1,6 +1,6 @@
 {
     "redes":[{
-        "instagram": "https://www.instagram.com/santizeniquelok/",
+        "instagram": "https://www.instagram.com/santizeniquel8/",
         "linkedin": "https://www.linkedin.com/in/santizeniquelok/",
         "whatsapp": "http://api.whatsapp.com/send?phone=3794150486",
         "github": "https://github.com/ScreshSZ"
@@ -14,7 +14,7 @@
     "perfil":[{
         "imagenPerfil": "../../../assets/perfil.jpeg",
         "nombre": "Zeniquel Santiago de Jesus",
-        "descripcionPerfil": "Me llamo Zeniquel Santiago de Jesús tengo 21 años soy estudiante de la carrera Licenciatura en Sistemas de Información en la UNNE(Universidad Nacional del Nordeste) en la ciudad de Corrientes y me gusta estudiar todo lo relacionado con la programación de manera autodidacta."
+        "descripcionPerfil": "Me llamo Zeniquel Santiago de Jesús tengo 22 años soy estudiante de la carrera Licenciatura en Sistemas de Información en la UNNE(Universidad Nacional del Nordeste) en la ciudad de Corrientes y me gusta estudiar todo lo relacionado con la programación de manera autodidacta."
     }],
 
     "experiencia":[
@@ -23,7 +23,7 @@
         "empresa": "Hospital 'Angela Iglesia de Llano'",
         "periodo": "4 meses del 2018",
         "puesto": "Pasantias / Area de Facturación",
-        "descripcionExperiencia": "Mi puesto era en el área de facturación y las tareas principales de las que me encargaba es la de comprobación y verificación de obras sociales de los pacientes por medio de la pagina Web SISA (Sistema Integrado de información Sanitaria Argentino) para posteriormente ser enviadas a su correspondiente departamento."
+        "descripcionExperiencia": "Mi puesto era en el área de facturación y las tareas principales de las que me encargaba es la de comprobación y verificación de datos de las obras sociales."
         }
     ],
 
@@ -90,6 +90,16 @@
             "nombre": "Trabajo en Equipo",
             "porcentaje": "90",
             "width": "width: 90%;"
+        },
+        {
+            "nombre": "Java",
+            "porcentaje": "80",
+            "width": "width: 80%;"
+        },
+        {
+            "nombre": "Java POO",
+            "porcentaje": "80",
+            "width": "width: 80%;"
         },
         {
             "nombre": "Ingles",
@@ -165,16 +175,12 @@
     ],
     "proyectos": [
         {
-            "nombre": "Pagina Web Apple",
-            "fecha": "Julio de 2022",
-            "descripcion": "Esta pagina la hice con React, basicamente trata de 3 Cards que contienen un producto y al darle click en el boton desplega una pequeña descripcion del Producto",
+            "nombre": "Pagina Web Material UI",
             "url": "https://desafio4-react.vercel.app/",
             "imagen": "../../../assets/proyecto1.png"
         },
         {
             "nombre": "Pagina Web Aplicando Materialize",
-            "fecha": "Agosto de 2022",
-            "descripcion": "Esta pagina la hice con Html, Css y un framework llamado Materialize que esta compuesta de diversas secciones aplicando la mayoria de recursos disponibles",
             "url": "https://desafio6-nine.vercel.app/",
             "imagen": "../../../assets/proyecto2.png"
         }

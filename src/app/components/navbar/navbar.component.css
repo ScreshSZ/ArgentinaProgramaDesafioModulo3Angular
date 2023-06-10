@@ -1,8 +1,6 @@
 /*---------NAV--------*/
-.navbar-brand img{
-    height: 70px;
-    width: 180px;
-    object-fit: cover;
+.navbar-brand{
+    font-size: 30px;
 }
 
 .nav-link:hover{
