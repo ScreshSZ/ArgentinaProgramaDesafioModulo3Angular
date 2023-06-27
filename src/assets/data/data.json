@@ -183,7 +183,39 @@
             "nombre": "Pagina Web Aplicando Materialize",
             "url": "https://desafio6-nine.vercel.app/",
             "imagen": "../../../assets/proyecto2.png"
+        },
+        {
+            "nombre": "Proyecto 3",
+            "url": "https://proyecto-portfolio1.vercel.app/",
+            "imagen": "../../../assets/proyecto7.png"
+        },
+        {
+            "nombre": "Proyecto 4",
+            "url": "https://proyecto-portfolio2.vercel.app/",
+            "imagen": "../../../assets/proyecto8.png"
+        },
+        {
+            "nombre": "Proyecto 5",
+            "url": "https://proyecto-portfolio3.vercel.app/",
+            "imagen": "../../../assets/proyecto3.png"
+        },
+        {
+            "nombre": "Proyecto 6",
+            "url": "https://proyecto-portfolio4.vercel.app/",
+            "imagen": "../../../assets/proyecto4.png"
+        },
+        {
+            "nombre": "Proyecto 7",
+            "url": "https://proyecto-portfolio8.vercel.app/",
+            "imagen": "../../../assets/proyecto5.png"
+        },
+        {
+            "nombre": "Proyecto 8",
+            "url": "https://proyecto-portfolio6.vercel.app/",
+            "imagen": "../../../assets/proyecto6.png"
         }
+
+
     ]
 
 
